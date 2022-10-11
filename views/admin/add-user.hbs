@@ -1,0 +1,25 @@
+<section>
+    <div class="container mt-4">
+        <div class="row">
+
+            <div class="col-md-4">
+                <h2 class="text-center">Add User</h2>
+                <p>{{adminEmailError}}</p>
+                <form action="/admin/add-user" method="post">
+
+                    <label for="" class="form-label">Name</label>
+                    <input type="text" name="Name" class="form-control">
+
+                    <label for="" class="form-label">Email</label>
+                    <input type="text" name="Email" class="form-control">
+
+                    <label for="" class="form-label">Password</label>
+                    <input type="text" name="Password" class="form-control">
+
+                    <button type="submit" class="btn btn-success mt-4">Submit</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</section>
